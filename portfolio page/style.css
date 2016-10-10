@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+/*
+------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1;
+}
+
+
+/* 
+------------------------------------------------------------*/
+body{
+	color:#595858;
+	font-size: 14px;
+	font-family: "Meiryo", "メイリオ", "MS PGothic", "Osaka", Arial, sans-serif;
+	background-color: #ffffff;
+}
+
+
+/*
+------------------------------------------------------------*/
+.clear {
+  clear: both;
+}
+
+
+/* ★★ 01.
+------------------------------------------------------------*/
+header {
+	width: 1000px;
+	height: 20px;
+	margin: 0 auto 0 auto;
+	padding: 10px 0 10px 0;
+}
+div#title {
+	width: auto;
+	height: 60px;
+	float: left;
+}
+div#title h1 {
+	font-size: 20px;
+	line-height: 2;
+	margin-bottom: 5px;
+}
+nav {
+	margin: 100px 0 0 0;
+}
+nav ul li {
+	float: left;
+	margin-left: 120px;
+}
+nav ul li a {
+	font-size: 18px;
+	color: #595858;
+	font-weight: 400;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #e73a51;
+}
+
+
+/* ★★ 02.
+------------------------------------------------------------*/
+div#main_background {
+	width: 100%;
+	height: 200px;
+	padding: 90px 0;
+	background: url(images2/);
+	text-align: center;
+}
+
+
+/* ★★ 03.
+------------------------------------------------------------*/
+div#cource {
+	margin: 40px auto 40px auto;
+	width: 900px;
+	height: auto;
+}
+div#cource h2 {
+	font-size: 18px;
+	font-weight: 900;
+	border-left: 8px solid #0000FF;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	line-height: 20px;
+}
+p#h2_text {
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 20px;
+}
+
+
+
+
+#cource_list {
+	width: 960px;
+
+}
+#cource_list li {
+	width: 200px;
+	height: auto;
+	border: 0px solid #cdcdcd;
+	float: left;
+	margin-right: 40px;
+}
+#cource_list li#last {
+	margin-right: 20px;
+}
+
+#cource_list li p.list_image {
+	width: 200px;
+	height: 176px;
+}
+#cource_list li h3 {
+	margin: 20px 20px 10px 20px;
+}
+#cource_list li h3 a {
+	font-size: 14px;
+	font-weight: 900;
+	color: #e73a51;
+	text-decoration: none;
+}
+#cource_list li p.list_text {
+	margin: 0 10px 0px 10px;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+p.list_image a:hover {
+ position: relative;
+ top: -8px;
+ left: 0px;
+}
+a img{
+  opacity: 1;
+  transition: 0.3s;
+}
+a:hover img{
+  opacity: .5;
+}
+
+
+
+/* ★★ 04.
+------------------------------------------------------------*/
+footer {
+	width: 100%;
+	height: 60px;
+	padding-top: 20px;
+	background-color: #EEEEEE;
+}
+div#footer-inner {
+	margin: 0 auto 0 auto;
+	width: 960px;
+}
+p#copyright {
+	float: left;
+	color: #000000;
+	font-size: 12px;
+	font-weight: 600;
+}
+p#pagetop {
+	float: right;
+}
+p#pagetop a {
+	font-size: 12px;
+	font-weight: 500;
+	color: #000000;
+	text-decoration: none;
+}
